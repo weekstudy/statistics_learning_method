@@ -257,11 +257,3 @@ if __name__ == "__main__":
     print(" take time:",end-start)
 
 
-    # test_data = np.array(test_data)
-    # test_label = np.array(test_label)
-
-    # A = np.array([1, 2, 2, 5, 7, 5, 6, 7, 8, 9, 0, 0])
-    # # res = max_classes(A)
-    # print(type(test_data),len(test_data))
-    # b = {item for item in A}
-    # print(len(b), b)

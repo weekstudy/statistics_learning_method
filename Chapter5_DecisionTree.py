@@ -238,7 +238,7 @@ def test_model(test_data, test_label, tree):
 if __name__ == "__main__":
 
 
-    # 记载数据
+    # 加载数据
     test_data, test_label = load_data("./mnist_test/mnist_test.csv")
     train_data, train_label = load_data("./mnist_test/mnist_train.csv")
 

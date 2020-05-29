@@ -24,7 +24,7 @@ def load_data(filename):
             cur_line = line.strip().split(',')
             # 分割出来的是字符串，转为数字类型,
             data_arr.append([int(num) / 255 for num in cur_line[1:]])
-            # 为了简化，就做二分类，将标签为0的标为1，其他都为1，
+            # 为了简化，就做二分类，将标签为0的标为1，其他都为0，
             # 其实也可以做多分类
             if int(cur_line[0]) == 0:
                 label_arr.append(1)
